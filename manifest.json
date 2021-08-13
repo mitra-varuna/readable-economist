@@ -1,0 +1,12 @@
+{
+    "name": "Readable Economist",
+    "description": "Make Economist Readable",
+    "version": "1.0",
+    "manifest_version": 3,
+     "content_scripts": [
+   {
+     "matches": ["https://*.economist.com/*"],
+       "js": ["content-script.js"]
+   }
+ ]
+}
